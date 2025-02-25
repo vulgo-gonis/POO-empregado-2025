@@ -44,5 +44,20 @@ public class Empregado {
         this.bonus = bonus;
     }
 
+    public double CalculaSalario() {
+        if (tipo == 1){
+            return salario;
+        }
+        else if (tipo == 2){
+            return salario + salario * comissao;
+        }
+        else if (tipo == 3){
+            return salario + bonus;
+        }
+        else {
+            return 0;
+        }
+    }
+
     
 }
