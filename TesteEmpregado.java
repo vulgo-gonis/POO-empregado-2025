@@ -20,6 +20,11 @@ public class TesteEmpregado {
         System.out.println(emp2.CalculaSalario());
         System.out.println(emp3.CalculaSalario());
 
+        //git add *
+        //git commit -m ""
+        //git push
+        
+
     
     }
 
